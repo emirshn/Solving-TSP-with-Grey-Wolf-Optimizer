@@ -3,6 +3,9 @@ I attempted to solve the Traveling Salesman Problem (TSP) efficiently using the 
 
 The implementation is highly customizable, allowing users to modify parameters such as the number of solutions, the number of iterations, and more.
 
+Note: On average, the algorithm produces results that are 2–3% worse than the optimal tour when run for 20 iterations. However, this gap can be reduced significantly by increasing the number of iterations to 50 or 100.
+
+
 This code can automatically detect any TSP file with a .tsp extension and, if an optimal tour file with a .opt extension is present, it can compare the computed solution against the optimal one.
 
 For example, the comparison for some problems look like these:
